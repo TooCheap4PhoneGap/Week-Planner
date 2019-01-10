@@ -1,0 +1,540 @@
+body{
+
+    background-color: white;
+
+}
+
+#progress{
+
+    position: fixed;
+    height: 7.73%;
+    width: 100%;
+    background-color: #D8D8D8;
+    margin: 0;
+    top: 0;
+    left: 0;
+
+}
+
+#myBar {
+    position: relative;
+    height: 30%;
+    width: 94%;
+    background-color: white;
+    border-radius: 25px;
+    left: 2.75%;
+    top: 13.333%;
+}
+  
+#myProgress {
+    width: 45%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #8CC084;
+}
+
+#progresspa{
+
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    bottom: 34%;
+    left: 10%;
+
+}
+
+#procent{
+
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    bottom: 132%;
+    padding: 0 0 0 77%;
+
+}
+
+footer{
+
+    height: 6.95%;
+    position: fixed;
+    width: 100%;
+    background-color: #D8D8D8;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+#streck{
+
+    height: 100%;
+    position: absolute;
+    width: 0.53333%;
+    background-color: white;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: 1;
+
+}
+
+#clearprog{
+
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    background-color: #D8D8D8;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    outline: none;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+
+}
+
+#clearall{
+
+    
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    background-color: #D8D8D8;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    outline: none;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+
+}
+
+#dagar{
+    
+    height: 85.32%;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 7.73%;
+    left: 0;
+
+}
+
+.mon{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: #97EAD2;
+    
+    transition: all .2s ease-in-out 0s;
+
+}
+
+
+    #monText{
+
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 76.5%;
+        left: 3%;
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+    #monProcent{
+
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 76%;
+        left: 73%;
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+    #monUnder{
+
+        position: fixed;
+        background-color: white;
+        bottom: 83%;
+        left: 3%;
+        height: 3px;
+        width: 93%;
+        transform: scale(0);
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+.tue{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 14.2857%;
+    left: 0;
+    background-color: #7FC6A4;
+
+    transition: all .2s ease-in-out 0s;
+    
+}
+    
+    #tueText{
+    
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 63.8%;
+        left: 2%;
+
+        transition: all .2s ease-in-out 0s;
+    
+    }
+    
+    #tueProcent{
+    
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 63.8%;
+        right: 2%;
+        
+
+        transition: all .2s ease-in-out 0s;
+    
+    }
+
+    #tueUnder{
+
+        position: fixed;
+        background-color: white;
+        bottom: 70.7%;
+        left: 3%;
+        height: 3px;
+        width: 93%;
+        transform: scale(0);
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+.wed{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 28.5714%;
+    left: 0;
+    background-color: #4D7298;
+
+    transition: all .2s ease-in-out 0s;
+        
+}
+        
+    #wedText{
+        
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 40px;
+        bottom: 52%;
+        left: 2%;
+
+        transition: all .2s ease-in-out 0s;
+        
+    }
+        
+    #wedProcent{
+        
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 40px;
+        bottom: 51.6%;
+        right: 2%;
+
+        transition: all .2s ease-in-out 0s;
+        
+    }
+
+    #wedUnder{
+
+        position: fixed;
+        background-color: white;
+        bottom: 58.7%;
+        left: 2%;
+        height: 3px;
+        width: 96%;
+        transform: scale(0);
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+.thu{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 42.85%;
+    left: 0;
+    background-color: #8C86AA;
+
+    transition: top .2s ease-in-out, height .2s ease-in-out;
+            
+}
+            
+    #thuText{
+            
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 39.8%;
+        left: 3%;
+
+        transition: all .2s ease-in-out 0s;
+            
+    }
+            
+    #thuProcent{
+            
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 39.5%;
+        left: 73%;
+
+        transition: all .2s ease-in-out 0s;
+            
+    }
+
+    #thuUnder{
+
+        position: fixed;
+        background-color: white;
+        bottom: 46.9%;
+        left: 2%;
+        height: 3px;
+        width: 96%;
+        transform: scale(0);
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+
+.fri{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 57.1%;
+    left: 0;
+    z-index: 3;
+    background-color: #CFBCDF;
+
+    transition: top .2s ease-in-out, height .2s ease-in-out;
+    /*transition: height 2s ease-in-out 0s;*/
+                
+}
+
+#cheatfri{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 57.1%;
+    left: 0;
+    background-color: #CFBCDF;
+    z-index: 1;
+    
+}
+                
+    #friText{
+                
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 27.6%;
+        left: 3%;
+
+        transition: bottom .2s ease-in-out 0s;
+                
+    }
+                
+    #friProcent{
+                
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 27.5%;
+        left: 73%;
+
+        transition: bottom .2s ease-in-out 0s;
+                
+    }
+
+    #friUnder{
+
+        position: fixed;
+        background-color: white;
+        bottom: 34.9%;
+        left: 2%;
+        height: 3px;
+        width: 96%;
+        transform: scale(0);
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+.sat{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 71.4%;
+    left: 0;
+    background-color: #D496A7;
+
+    transition: top .2s ease-in-out, height .2s ease-in-out;
+                    
+}
+                    
+    #satText{
+                    
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 15.2%;
+        left: 3%;
+
+        transition: bottom .2s ease-in-out 0s;
+                    
+    }
+                    
+    #satProcent{
+                    
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 15.2%;
+        left: 73%;
+
+        transition: bottom .2s ease-in-out 0s;
+                    
+    }
+
+    #satUnder{
+
+        position: fixed;
+        background-color: white;
+        bottom: 21.5%;
+        left: 2%;
+        height: 3px;
+        width: 96%;
+        transform: scale(0);
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+.sun{
+
+    height: 14.2857%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 85.7%;
+    left: 0;
+    background-color: #F7567C;
+
+    transition: top .2s ease-in-out, height .2s ease-in-out;
+                        
+}
+                        
+    #sunText{
+                        
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 3.2%;
+        left: 3%;
+
+        transition: bottom .2s ease-in-out 0s;
+                        
+    }
+                        
+    #sunProcent{
+                        
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 41px;
+        bottom: 3.2%;
+        left: 73%;
+
+        transition: bottom .2s ease-in-out 0s;
+                        
+    }
+
+    #sunUnder{
+
+        position: fixed;
+        background-color: white;
+        bottom: 10%;
+        left: 2%;
+        height: 3px;
+        width: 96%;
+        transform: scale(0);
+        
+        transition: all .2s ease-in-out 0s;
+
+    }
+

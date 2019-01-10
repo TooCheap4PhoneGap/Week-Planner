@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Taskbar</title>
+    </head>
+    <body>
+
+        <header id="progress">
+
+            <div id="myBar">
+                <div id="myProgress"></div>
+            </div>
+
+            <p id="progresspa">Weekly Progress</p>
+            <p id="procent">45%</p>
+
+        </header>
+
+
+        <div id="dagar">
+
+            <div id="mon" class="mon">
+
+                <p id="monText">Monday</p>
+                <p id="monProcent">45%</p>
+                <div id="monUnder"></div>
+
+            </div>
+
+            <div id="tue" class="tue">
+
+                <p id="tueText">Tuesday</p>
+                <p id="tueProcent">100%</p>
+                <div id="tueUnder"></div>
+
+            </div>
+
+            <div id="wed" class="wed">
+
+                <p id="wedText">Wednesday</p>
+                <p id="wedProcent">100%</p>
+                <div id="wedUnder"></div>
+
+            </div>
+
+            <div id="thu" class="thu">
+
+                <p id="thuText">Thursday</p>
+                <p id="thuProcent">20%</p>
+                <div id="thuUnder"></div>
+
+            </div>
+
+            <div id="cheatfri"></div>
+
+            <div id="fri" class="fri">
+
+                <p id="friText">Friday</p>
+                <p id="friProcent">69%</p>
+                <div id="friUnder"></div>
+
+            </div>
+
+            
+
+            <div id="sat" class="sat">
+
+                <p id="satText">Saturday</p>
+                <p id="satProcent">12%</p>
+                <div id="satUnder"></div>
+
+            </div>
+
+            <div id="sun" class="sun">
+
+                <p id="sunText">Sunday</p>
+                <p id="sunProcent">84%</p>
+                <div id="sunUnder"></div>
+
+            </div>
+
+        </div>
+        
+
+
+        <footer>
+
+            <div id="streck">
+            </div>
+
+            <button id="clearprog" onclick="clearProg()">
+                Clear Progress
+            </button>
+
+            <button id="clearall" onclick="clearAll()">
+                Clear All
+            </button>
+
+        </footer>
+
+        <!--Att göra: footer och dagar-->
+
+
+
+
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
